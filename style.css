@@ -20,6 +20,26 @@ ul.topnav {
   background-color: rgb(241, 205, 87);
 }
 
+div.topnav{ 
+  background-color: rgb(241, 205, 87);
+  padding: 6px;
+  margin: 0;
+  list-style-type: none;
+}
+
+#miau{
+  margin:0;
+  padding: 0;
+  background-color: rgb(241, 205, 87);
+  border: 10px;
+  border-color: rgb(241, 205, 87);
+}
+
+#cat{
+  background-color: rgb(241, 205, 87);
+  border: 0;
+}
+
 ul.topnav li {float: right;}
 
 ul.topnav li a {
