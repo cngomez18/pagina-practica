@@ -51,3 +51,46 @@ ul.topnav li a {
 }
 
 ul.topnav li a:hover:not(.active) {background-color: rgb(250, 240, 106)}
+
+.imagen{
+  transition: transform .2s; 
+  margin: 0 auto;
+  
+}
+.imagen:hover{
+  transform: scale(4.5);
+}
+
+.grid-container {
+  display: grid;
+  
+  grid-row: auto auto auto;
+  background-color: rgb(255, 250, 183);
+  padding: 10px;
+}
+
+.grid-item {
+  
+  padding: 50px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#uno{
+grid-column: span 12;
+}
+
+#datos{
+  grid-column: span 12;
+  text-align: center;
+  
+}
+
+
+#titulo{
+  grid-column: span 12;
+  text-align: center;
+}
+#lin{
+  padding-right: 10px;
+}
